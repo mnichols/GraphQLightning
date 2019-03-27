@@ -112,7 +112,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 ```
 @ul[spaced text-black]
 - Client: Simple clients that don't use something like Apollo need to manually craft the lang
-- Server: Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
+- @size[0.75em](Server: Instrumentation dependent on http status is _different_ {not necessarily worse} since everything is a `POST => OK`)
 - Errors are always `200`. Maybe not a **con** but at least a **hmm**.
 - Graphs can get complex quickly (they abstract a composition of underlying resources).
   - This can lead to latency if you arent careful
