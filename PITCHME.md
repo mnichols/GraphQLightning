@@ -21,7 +21,7 @@
 
 @ul[spaced text-black]
 - Velocity: Learning the lang is faster than rolling your own
-- Maintainability: Battle-tested specs have weathered ageing (change)
+- Maintainability: Change is better planned using a Battle-tested spec
 - Tooling: A common spec often means community tooling explosion
 @ulend
 
@@ -39,8 +39,8 @@ Host: team.invisionapp.com
 200 OK
 Content-Type: application/json
 {
-  "studiogql_url": "https://something.com/studio/gql",
-  "webgql_url": "https://another.com/gql"
+  "studiogql_url": "https://team.invisionapp.com/studio/gql",
+  "webgql_url": "https://team.invisionapp.com/web/gql"
 }
 
 ```
@@ -76,7 +76,7 @@ Content-Type: application/json
 
 ```
 
----?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
+---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema&image=assets/img/gql.png&size=contain
 
 @title[Meet The Schema]
 
