@@ -9,8 +9,10 @@
 
 @ul[spaced text-black]
 - Yes, a 'query language' (**specification**)
-- BUT, also a specifiation for `commands` (**mutations**)
-- It explicitly defines the _capabilities_ of your application
+- BUT, also a specification for `commands` (**mutations**)
+- It explicitly defines the _capabilities_ of your application 
+  - Verbs are first-class
+  - Discovery is done via the graph, not links
 - BUT, doesn't infect your application with its opinions
 @ulend
 
@@ -104,17 +106,16 @@ Content-Type: application/json
 ---
 
 @title[Cons]
-
-# Cons
-
+#### Cons
 ```
 mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }
 ```
-
 @ul[spaced text-black]
 - Client: Simple clients that don't use something like Apollo need to manually craft the lang
 - Server: Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
 - Errors are always `200`. Maybe not a **con** but at least a **hmm**.
+- Graphs can get complex quickly (they abstract a composition of underlying resources).
+  - This can lead to latency if you arent careful
 @ulend
 
 ---
