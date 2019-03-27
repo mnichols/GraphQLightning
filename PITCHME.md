@@ -146,6 +146,8 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 ### GoLang and Boilerplate
 **GQLGEN** 
 https://gqlgen.com/
+
+@size[0.5em](Sample project at https://github.com/InVisionApp/gql)
 @snapend
 
 @snap[west]
@@ -160,7 +162,6 @@ https://gqlgen.com/
 
 @snap[south span-100]
 @size[0.5em](Blog post @ `GraphQL : Getting Started and Patterns for golang services`)
-@size[0.5em](Sample project at https://github.com/InVisionApp/gql)
 @snapend
 
 ---?image=assets/img/presenter.jpg
