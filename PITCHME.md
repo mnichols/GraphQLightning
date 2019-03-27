@@ -31,17 +31,16 @@
 @title[Existing API and Avoiding Corners]
 
 @snap[north-west]
-General Questions
+General Questions For Adopting Any Specification
 @ul[spaced text-black]
 - **Integration** : Can it be hosted alongside my other APIs?
 - **Age** : Can I change my mind later or will I experience vendor lock-in?
-- **Isolation**: Will related dependencies infect my entire application?
+- **Isolation**: Do related dependencies stay isolated from my domain?
 - **Iteration**: Can I slowly migrate toward its adoption, or does it force a rewrite?
 - GraphQL => **YES!**
 @ulend
 
 ---
-
 
 @title[Plays With Others: REST API Root]
 
