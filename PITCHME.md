@@ -147,7 +147,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 **GQLGEN** 
 https://gqlgen.com/
 
-@snap
+@snap[north-west]
 @ul[spaced text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
@@ -157,7 +157,7 @@ https://gqlgen.com/
 @ulend
 @snapend
 
-@snap[south]
+@snap[south span-100]
 Blog post @ `GraphQL : Getting Started and Patterns for golang services`
 @snapend
 
