@@ -15,9 +15,8 @@
 
 ---
 
-@title[Plays With Others]
+@title[Plays With Others: REST API Root]
 
-@snap[west]
 **My REST API root**
 
 ```json
@@ -31,10 +30,10 @@ Host: team.invisionapp.com
 }
 
 ```
-@snapend
 
+---
+@title[Plays With Others: GraphQL Endpoint]
 
-@snap[east fragment]
 **My GraphQL endpoint**
 
 ```json
@@ -59,7 +58,6 @@ Host: team.invisionapp.com
 }
 
 ```
-@snapend
 
 ---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
 
