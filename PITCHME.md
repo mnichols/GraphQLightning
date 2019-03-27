@@ -105,6 +105,10 @@ Content-Type: application/json
 
 @title[Pros and Cons]
 
+@snap[north]
+# Pros and Cons
+@snapend
+
 @snap[west span-50]
 Pros
 @ul[spaced text-black]
