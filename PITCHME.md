@@ -158,7 +158,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @size[0.5em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
-@snap[midpoint]
+@snap[west small]
 @ul[text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
