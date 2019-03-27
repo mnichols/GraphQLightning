@@ -1,3 +1,6 @@
+.slide-background-content {
+  opacity: 0.5;
+}
 .spaced li {
   margin:0 0 10px 0;
 }
