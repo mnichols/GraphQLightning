@@ -110,7 +110,7 @@ Content-Type: application/json
 ```
 mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }
 ```
-@ul[spaced text-black]
+@ul[spaced text-black small]
 - Client: Simple clients that don't use something like Apollo need to manually craft the lang
 - @size[0.75em](Server: Instrumentation dependent on http status is _different_ {not necessarily worse} since everything is a `POST => OK`)
 - Errors are always `200`. Maybe not a **con** but at least a **hmm**.
