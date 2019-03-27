@@ -1,7 +1,7 @@
 # GraphQL Services
 ### Because You Need Another Thing
 
----?image=assets/img/gql.svg
+---?image=assets/img/gql.svg&size=contain
 @title[What is it]
 
 ## What is it
@@ -17,7 +17,7 @@
 
 @title[Plays With Others]
 
-@snap[west span-50]
+@snap[west]
 **My REST API root**
 
 ```
@@ -29,10 +29,10 @@ Host: team.invisionapp.com
   "webgql_url": "https://another.com/gql"
 }
 ```
-
 @snapend
 
-@snap[east span-50]
+
+@snap[east fragment]
 **My GraphQL endpoint**
 
 ```
@@ -55,7 +55,6 @@ Host: team.invisionapp.com
     }
 }
 ```
-
 @snapend
 
 ---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
