@@ -159,7 +159,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 <hr />
 @snapend
 
-@snap[south-west]
+@snap[west]
 @ul[spaced text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
