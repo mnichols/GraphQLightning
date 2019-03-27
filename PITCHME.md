@@ -142,18 +142,21 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 @title[GoLang]
 
-#### Boilerplate
+### GoLang and Boilerplate
 
-**GQLGEN** (https://gqlgen.com/) helps reduce boilerplate associated with golang servers.
+**GQLGEN** 
+(https://gqlgen.com/) 
 
 @ul[spaced text-black]
+- Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
 - Generates the models, validation, and http handler code for enforcing the spec.
 - Exposes smart interfaces for meeting the contracts
+- :( Breaking changes occasionally but well maintained
 @ulend
 
 @snap[south]
-Blog post called `GraphQL : Getting Started and Patterns for golang services`
+Blog post @ `GraphQL : Getting Started and Patterns for golang services`
 @snapend
 
 ---?image=assets/img/presenter.jpg
