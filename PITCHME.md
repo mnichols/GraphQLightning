@@ -161,8 +161,10 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @ul[spaced text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
-- Generates the models, validation, and http handler code for enforcing the spec.
+- Generates the models, validation, http handler, and resolver interface code for enforcing the spec.
 - Exposes smart interfaces for meeting the contracts
+- `Resolvers` are the heart of behavior
+  - GQLGen provides the interface - you provide the implementation.
 - :( Breaking changes occasionally but well maintained
 - Sample project at `https://github.com/InVisionApp/gql`
 @ulend
