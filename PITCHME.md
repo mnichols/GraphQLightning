@@ -121,14 +121,14 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 @title[Pros]
 
-# Pros
+#### Pros
 
 > Less "back and forth" cobbling objects together for a client model - Happy Developer.
 
 ---
 
 @title[Pros]
-# Pros
+#### Pros
 
 @ul[spaced text-black]
 - Client: Negotiation was simplified because of the inherent Document Driven Design
@@ -145,8 +145,9 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 ### GoLang and Boilerplate
 
 **GQLGEN** 
-(https://gqlgen.com/) 
+https://gqlgen.com/
 
+@snap
 @ul[spaced text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
@@ -154,6 +155,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 - Exposes smart interfaces for meeting the contracts
 - :( Breaking changes occasionally but well maintained
 @ulend
+@snapend
 
 @snap[south]
 Blog post @ `GraphQL : Getting Started and Patterns for golang services`
