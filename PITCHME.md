@@ -107,10 +107,13 @@ Content-Type: application/json
 
 # Cons
 
+```
+mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }
+```
+
 @ul[spaced text-black]
-- Simple clients that don't use something like Apollo need to manually craft the lang
-- eg `mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }`
-- Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
+- Client: Simple clients that don't use something like Apollo need to manually craft the lang
+- Server: Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
 @ulend
 
 ---
@@ -118,10 +121,9 @@ Content-Type: application/json
 # Pros
 
 @ul[spaced text-black]
-- Client-server negotiation was simplified because of the inherent Document Driven Design
-  - > Less "back and forth" cobbling objects together for a client model - Anonymous
-- eg `mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }`
-- Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
+- Client: Negotiation was simplified because of the inherent Document Driven Design
+  - > Less "back and forth" cobbling objects together for a client model - Adam Jahnkeish
+- Server: Less time writing clever searches over my API
 @ulend
 
 ---?image=assets/img/presenter.jpg
