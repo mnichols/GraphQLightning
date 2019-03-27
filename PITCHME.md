@@ -141,16 +141,15 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 ---?image=assets/img/gql.png&size=contain
 @title[GoLang]
+@snap[midpoint]
 ### GoLang and Boilerplate
-
-
-@snap[north-west span-200]
 @size[1em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
 ----
 
-@snap[north-west span-200]
+@title[GoLang]
+@snap[north-west]
 @size[1em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
@@ -165,7 +164,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @ulend
 @snapend
 
-@snap[south span-100]
+@snap[south]
 @size[0.5em](Blog post @ `GraphQL : Getting Started and Patterns for golang services`)
 @snapend
 
