@@ -19,6 +19,7 @@
 
 @snap[west span-50]
 **My REST API root**
+
 ```
 GET /app-store-bff/api
 Host: team.invisionapp.com
@@ -28,10 +29,12 @@ Host: team.invisionapp.com
   "webgql_url": "https://another.com/gql"
 }
 ```
+
 @snapend
 
 @snap[east span-50]
 **My GraphQL endpoint**
+
 ```
 POST /studio/gql
 Host: team.invisionapp.com
@@ -52,6 +55,7 @@ Host: team.invisionapp.com
     }
 }
 ```
+
 @snapend
 
 ---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
