@@ -142,9 +142,9 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 @title[GoLang]
 
-@snap[north-west]
+@snap[north-west span-200]
 ### GoLang and Boilerplate
-#### GQLGEN : `https://gqlgen.com/`
+@size[1em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
 @snap[west]
