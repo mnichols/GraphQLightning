@@ -32,14 +32,16 @@
 
 # General Questions
 
+@snap[north-west span-75]
 @ul[spaced text-black]
 - **Integration** : Can it be hosted alongside my other APIs?
 - **Age** : Can I change my mind later or will I experience vendor lock-in?
 - **Isolation**: Will related dependencies infect my entire application?
 - **Iteration**: Can I slowly migrate toward its adoption, or does it force a rewrite?
 @ulend
+@snapend
 
-@snap[south]
+@snap[south-east span-25]
 # A: YES!
 @snapend
 
