@@ -1,29 +1,23 @@
-# GraphQL : Because You Need Another Thing
+# GraphQL
+### Because You Need Another Thing
 
----
-
-## What is it
-
-![](assets/img/presentation.png)
+@snap[south]
+![](assets/img/gql.svg)
 
 ---
 @title[What is it]
 
-@snap[west span-50]
+## What is it
+
 @ul[spaced text-black]
 - Yes, a 'query language' (**specification**)
 - BUT, also a specifiation for `commands` (**mutations**)
 @ulend
-@snapend
-
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
 
 ---?color=#E58537
 @title[Meet The Schema]
 
-@snap[north-west]
+@snap[west span-50]
 ## Query API
 
 ```
@@ -36,7 +30,7 @@ type Query {
 ```
 @snapend
 
-@snap[north-east]
+@snap[east span-50]
 ## Commands API
 
 ```
