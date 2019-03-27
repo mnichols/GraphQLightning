@@ -14,31 +14,22 @@
 - BUT, also a specifiation for `commands` (**mutations**)
 @ulend
 
----?color=#E58537
+---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
+
+## Query API
+
 @title[Meet The Schema]
+
+# Meet The Schema
 
 @snap[west span-50]
 ## Query API
-
-```
-type Query {
-  app(selfUrl: String!): App!
-  apps(criteria: AppsCriteriaInput!): [App!]
-  latest(selfUrl: String!): App!
-  uploads(name: String!, version: String!): Files!
-}
-```
+@[66-71](Query API)
 @snapend
 
 @snap[east span-50]
 ## Commands API
-
-```
-type Mutation {
-  submitApp(manifest: ManifestInput!, installStrategies: [InstallStrategy!]!, team: String): Files!
-  verifyApp(selfUrl: String!, status: AppStatus!): App!
-}
-```
+@[134-137](Mutation API)
 @snapend
 
 ---?image=assets/img/presenter.jpg
