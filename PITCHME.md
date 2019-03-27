@@ -119,7 +119,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 ---
 
-@title[Pros]
+@title[Pros 1]
 
 #### Pros
 
@@ -127,7 +127,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 ---
 
-@title[Pros]
+@title[Pros 2]
 #### Pros
 
 @ul[spaced text-black]
@@ -139,9 +139,10 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @ulend
 
 
----?image=assets/img/gql.png&size=contain
+---
 
-@title[GoLang]
+@title[GoLang 1]
+
 @snap[midpoint]
 ### GoLang and Boilerplate
 @size[1em](GQLGEN : `https://gqlgen.com/`)
@@ -149,7 +150,8 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 ----
 
-@title[GoLang]
+@title[GoLang 2]
+
 @snap[north-west]
 @size[1em](GQLGEN : `https://gqlgen.com/`)
 @snapend
@@ -169,7 +171,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @size[0.5em](Blog post @ `GraphQL : Getting Started and Patterns for golang services`)
 @snapend
 
----?image=assets/img/gql.png&size=contain
+---
 
 @title[Thanks]
 
