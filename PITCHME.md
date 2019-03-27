@@ -120,10 +120,11 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 # Pros
 
+> Less "back and forth" cobbling objects together for a client model - Happy Developer.
+
 @ul[spaced text-black]
 - Client: Negotiation was simplified because of the inherent Document Driven Design
-  - > Less "back and forth" cobbling objects together for a client model - Adam Jahnkeish
-- Server: Less time writing clever searches over my API
+- Server: Less time writing clever searches over my API that composes _n_ objects.
 @ulend
 
 ---?image=assets/img/presenter.jpg
