@@ -3,6 +3,7 @@
 
 @snap[south]
 ![](assets/img/gql.svg)
+@snapend
 
 ---
 @title[What is it]
@@ -17,8 +18,6 @@
 ---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
 
 @title[Meet The Schema]
-
-# Meet The Schema
 
 @snap[west span-50]
 @[66-71](Query API)
