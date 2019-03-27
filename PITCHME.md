@@ -114,18 +114,47 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @ul[spaced text-black]
 - Client: Simple clients that don't use something like Apollo need to manually craft the lang
 - Server: Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
+- Errors are always `200`. Maybe not a **con** but at least a **hmm**.
 @ulend
 
 ---
+
+@title[Pros]
 
 # Pros
 
 > Less "back and forth" cobbling objects together for a client model - Happy Developer.
 
+---
+
+@title[Pros]
+# Pros
+
 @ul[spaced text-black]
 - Client: Negotiation was simplified because of the inherent Document Driven Design
 - Server: Less time writing clever searches over my API that composes _n_ objects.
+- Everything is explicit
+  - Pagination typically employs `Connections`, an explicit affordance for client pagination details
+- Implementation that meets the contract is not mandated by the spec.
 @ulend
+
+---
+
+@title[GoLang]
+
+#### Boilerplate
+
+**GQLGEN** (https://gqlgen.com/) helps reduce boilerplate associated with golang servers.
+
+@ul[spaced text-black]
+- Inspects the `schema.graphql` file I showed earlier
+- Generates the models, validation, and http handler code for enforcing the spec.
+- Exposes smart interfaces for meeting the contracts
+@ulend
+
+@snap[south]
+Blog post called `GraphQL : Getting Started and Patterns for golang services`
+@snapend
 
 ---?image=assets/img/presenter.jpg
 
