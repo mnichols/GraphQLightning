@@ -1,11 +1,7 @@
 # GraphQL
 ### Because You Need Another Thing
 
-@snap[south]
-![](assets/img/gql.svg)
-@snapend
-
----
+---?image=assets/img/gql.svg
 @title[What is it]
 
 ## What is it
