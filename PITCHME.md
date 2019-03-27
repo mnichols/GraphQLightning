@@ -138,13 +138,14 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 - Implementation that meets the contract is not mandated by the spec.
 @ulend
 
-
----
-
+---?image=assets/img/gql.png&size=contain
 @title[GoLang 1]
 
-@snap[midpoint]
+@snap[north]
 ### GoLang and Boilerplate
+@snapend
+
+@snap[midpoint]
 @size[1em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
@@ -167,7 +168,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @ulend
 @snapend
 
-@snap[south]
+@snap[south span-100]
 @size[0.5em](Blog post @ `GraphQL : Getting Started and Patterns for golang services`)
 @snapend
 
