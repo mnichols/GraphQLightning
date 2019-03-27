@@ -140,6 +140,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 
 ---?image=assets/img/gql.png&size=contain
+
 @title[GoLang]
 @snap[midpoint]
 ### GoLang and Boilerplate
@@ -169,6 +170,7 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @snapend
 
 ---?image=assets/img/gql.png&size=contain
+
 @title[Thanks]
 
 @snap[north span-100 headline]
