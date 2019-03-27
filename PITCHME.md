@@ -138,10 +138,17 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 - Implementation that meets the contract is not mandated by the spec.
 @ulend
 
----
 
+---?image=assets/img/gql.png&size=contain
 @title[GoLang]
 ### GoLang and Boilerplate
+
+
+@snap[north-west span-200]
+@size[1em](GQLGEN : `https://gqlgen.com/`)
+@snapend
+
+----
 
 @snap[north-west span-200]
 @size[1em](GQLGEN : `https://gqlgen.com/`)
