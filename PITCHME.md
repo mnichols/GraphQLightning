@@ -156,6 +156,8 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 @snap[north-west span-100]
 @size[0.5em](GQLGEN : `https://gqlgen.com/`)
+***
+***
 @snapend
 
 @snap[west small]
