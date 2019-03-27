@@ -20,7 +20,8 @@
 @snap[west]
 **My REST API root**
 
-```
+```json
+
 GET /app-store-bff/api
 Host: team.invisionapp.com
 200 OK
@@ -28,6 +29,7 @@ Host: team.invisionapp.com
   "studiogql_url": "https://something.com/studio/gql",
   "webgql_url": "https://another.com/gql"
 }
+
 ```
 @snapend
 
@@ -35,7 +37,8 @@ Host: team.invisionapp.com
 @snap[east fragment]
 **My GraphQL endpoint**
 
-```
+```json
+
 POST /studio/gql
 Host: team.invisionapp.com
 {
@@ -54,6 +57,7 @@ Host: team.invisionapp.com
         }
     }
 }
+
 ```
 @snapend
 
