@@ -159,7 +159,7 @@ https://gqlgen.com/
 @snapend
 
 @snap[south span-100]
-Blog post @ `GraphQL : Getting Started and Patterns for golang services`
+@size[0.5em](Blog post @ `GraphQL : Getting Started and Patterns for golang services`)
 @snapend
 
 ---?image=assets/img/presenter.jpg
