@@ -16,8 +16,6 @@
 
 ---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
 
-## Query API
-
 @title[Meet The Schema]
 
 # Meet The Schema
