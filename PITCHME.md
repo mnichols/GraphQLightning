@@ -144,8 +144,8 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 @snap[north-west span-150]
 ### GoLang and Boilerplate
-####GQLGEN : `https://gqlgen.com/`
-@size[0.5em](Sample project at `https://github.com/InVisionApp/gql`)
+#### GQLGEN : `https://gqlgen.com/`
+#### @size[0.5em](Sample project at `https://github.com/InVisionApp/gql`)
 @snapend
 
 @snap[north span-100]
