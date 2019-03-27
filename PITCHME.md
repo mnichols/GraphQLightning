@@ -141,9 +141,9 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 ---
 
 @title[GoLang]
+### GoLang and Boilerplate
 
 @snap[north-west span-200]
-### GoLang and Boilerplate
 @size[1em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
@@ -162,12 +162,10 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @size[0.5em](Blog post @ `GraphQL : Getting Started and Patterns for golang services`)
 @snapend
 
----?image=assets/img/presenter.jpg
+---?image=assets/img/gql.png&size=contain
+@title[Thanks]
 
 @snap[north span-100 headline]
-## Now It's Your Turn
-@snapend
-
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+# Thanks for listening
+#### Questions? Comments?
 @snapend
