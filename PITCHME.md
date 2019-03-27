@@ -1,7 +1,7 @@
 # GraphQL Services
 ### Because You Need Another Thing
 
----?image=assets/img/gql.svg&size=contain
+---?image=assets/img/gql.png&size=contain
 @title[What is it]
 
 ## What is it
@@ -15,6 +15,18 @@
 
 ---
 
+## Why reach for _any_ spec
+
+#### Lucene, GraphQL, Structured Query Language, etc...
+
+@ul[spaced text-black]
+- Velocity: Learning the lang is faster than rolling your own
+- Maintainability: Battle-tested specs have weathered ageing (change)
+- Tooling: A common spec often means community tooling explosion
+@ulend
+
+---
+
 @title[Plays With Others: REST API Root]
 
 **My REST API root**
@@ -23,7 +35,9 @@
 
 GET /app-store-bff/api
 Host: team.invisionapp.com
+
 200 OK
+Content-Type: application/json
 {
   "studiogql_url": "https://something.com/studio/gql",
   "webgql_url": "https://another.com/gql"
@@ -46,7 +60,10 @@ Host: team.invisionapp.com
     "selfUrl": "https://something.com/apps/cjs3hjr8o00080169mv6d1yin/accessibility-analyzer/0.4.0"
   }
 }
+
 200 OK
+Content-Type: application/json
+
 {
     "data": {
         "app": {
