@@ -103,31 +103,26 @@ Content-Type: application/json
 
 ---
 
-@title[Pros and Cons]
+@title[Cons]
 
-@snap[north]
-# Pros and Cons
-@snapend
+# Cons
 
-@snap[west span-50]
-Pros
+@ul[spaced text-black]
+- Simple clients that don't use something like Apollo need to manually craft the lang
+- eg `mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }`
+- Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
+@ulend
+
+---
+
+# Pros
+
 @ul[spaced text-black]
 - Client-server negotiation was simplified because of the inherent Document Driven Design
   - > Less "back and forth" cobbling objects together for a client model - Anonymous
 - eg `mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }`
 - Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
 @ulend
-@snapend
-
-@snap[east span-50]
-Cons
-@ul[spaced text-black]
-- Simple clients that don't use something like Apollo need to manually craft the lang
-- eg `mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrategy!]!){ submitApp(manifest: $manifest, installStrategies: $installStrategies, team: null) { pending, submitted { key, url }, uploaded } }`
-- Instrumentation dependent on http status is _different_ (not necessarily worse) since everything is a `POST => OK`
-@ulend
-@snapend
-
 
 ---?image=assets/img/presenter.jpg
 
