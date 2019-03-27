@@ -13,15 +13,18 @@
 
 ---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
 
-@title[Meet The Schema]
+@title[Meet The Schema: Queries and Commands]
 
-@snap[west span-50]
 @[66-71](Query API)
-@snapend
+@[134-137](Commands API)
 
-@snap[east span-50]
-@[134-137](Mutation API)
-@snapend
+---?gist=mnichols/3b94f868c5744f4df0d9c1055deecc48&title=Meet The Schema
+
+@title[Meet The Schema: Types and Inputs]
+
+@[18-45](Types)
+@[127-132](Inputs)
+@[11-16](Enums)
 
 ---?image=assets/img/presenter.jpg
 
