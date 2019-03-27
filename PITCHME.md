@@ -31,9 +31,7 @@
 @title[Existing API and Avoiding Corners]
 
 @snap[north-west]
-
-# General Questions
-
+General Questions
 @ul[spaced text-black]
 - **Integration** : Can it be hosted alongside my other APIs?
 - **Age** : Can I change my mind later or will I experience vendor lock-in?
