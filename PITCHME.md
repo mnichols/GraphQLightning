@@ -155,11 +155,11 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 @title[GoLang 2]
 
 @snap[north-west span-100]
-@size[1em](GQLGEN : `https://gqlgen.com/`)
+@size[0.5em](GQLGEN : `https://gqlgen.com/`)
 @snapend
 
-@snap[midpoint west]
-@ul[spaced text-black]
+@snap[midpoint]
+@ul[text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
 - Generates the models, validation, http handler, and resolver interface code for enforcing the spec.
