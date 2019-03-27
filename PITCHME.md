@@ -142,12 +142,13 @@ mutation submitApp($manifest: ManifestInput!, $installStrategies: [InstallStrate
 
 @title[GoLang]
 
+@snap[north-west]
 ### GoLang and Boilerplate
-
 **GQLGEN** 
 https://gqlgen.com/
+@snapend
 
-@snap[north-west]
+@snap[west]
 @ul[spaced text-black]
 - Static types. No `interface{}`.
 - Inspects the `schema.graphql` file I showed earlier
