@@ -23,12 +23,10 @@
 # Meet The Schema
 
 @snap[west span-50]
-## Query API
 @[66-71](Query API)
 @snapend
 
 @snap[east span-50]
-## Commands API
 @[134-137](Mutation API)
 @snapend
 
